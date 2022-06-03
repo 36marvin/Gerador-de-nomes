@@ -6,7 +6,7 @@ const lastNames = ["Carlos", "da Silva", "de Carvalho", "Magalhães"]
 function randomVarArray (array) {
     var arrayLenght = array.length;
     return array[Math.floor(Math.random() * arrayLenght)]
-}
+}    debugge
 
 function generateName () {
     var fName = randomVarArray(firstNames)
