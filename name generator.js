@@ -3,13 +3,13 @@
 const firstNames = ["Roberto", "Rubens", "Pedro", "Enrique"]
 const lastNames = ["Carlos", "da Silva", "de Carvalho", "Magalhães"]
 
-function randomVarArray (array) {   //returns a random item from the 'array' input
+function randomItemArray (array) {   //returns a random item from the 'array' input
     return array[Math.floor(Math.random() * array.length)]   //random index number that is larger than 0 and smaller than array.length
 }
 
 function generateName () {
-    var fName = randomVarArray(firstNames)
-    var lName = randomVarArray(lastNames)
+    var fName = randomItemArray(firstNames)
+    var lName = randomItemArray(lastNames)
     console.log(`${fName} ${lName}`)
 }
 
